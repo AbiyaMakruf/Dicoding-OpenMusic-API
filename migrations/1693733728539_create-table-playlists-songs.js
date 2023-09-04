@@ -1,5 +1,3 @@
-/* eslint-disable camelcase */
-
 exports.up = (pgm) => {
   // membuat table playlists_songs
   pgm.createTable('playlists_songs', {
